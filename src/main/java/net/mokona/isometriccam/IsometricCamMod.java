@@ -1,8 +1,8 @@
 package net.mokona.isometriccam;
 
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.common.Mod;
 import net.mokona.isometriccam.events.IsometricViewHandler;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.NeoForge;
 
 @Mod(IsometricCamMod.MOD_ID)
 public class IsometricCamMod
@@ -12,8 +12,6 @@ public class IsometricCamMod
     public IsometricCamMod()
     {
         IsometricViewHandler isometricViewHandler = new IsometricViewHandler();
-        // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
-        MinecraftForge.EVENT_BUS.register(isometricViewHandler);
+        NeoForge.EVENT_BUS.register(isometricViewHandler);
     }
 }

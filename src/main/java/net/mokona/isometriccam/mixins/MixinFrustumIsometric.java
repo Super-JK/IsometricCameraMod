@@ -1,4 +1,4 @@
-package net.mokona.isometriccam.mixin;
+package net.mokona.isometriccam.mixins;
 
 import net.minecraft.client.renderer.culling.Frustum;
 import net.mokona.isometriccam.utils.IsometricProjection;

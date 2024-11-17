@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.mokona.isometriccam.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "IsometricMixin",
+    "RenderPlayerMixin",
+    "MixinFrustumIsometric"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "isometriccam.mixin-refmap.json"
+}

@@ -1,4 +1,4 @@
-package net.mokona.isometriccam.mixin;
+package net.mokona.isometriccam.mixins;
 
 import org.joml.Matrix4f;
 import net.minecraft.client.renderer.GameRenderer;

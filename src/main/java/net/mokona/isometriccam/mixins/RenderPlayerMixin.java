@@ -1,4 +1,4 @@
-package net.mokona.isometriccam.mixin;
+package net.mokona.isometriccam.mixins;
 
 import net.minecraft.client.CameraType;
 import net.minecraft.client.Options;

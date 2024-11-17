@@ -1,4 +1,4 @@
-package net.mokona.isometriccam.mixin;
+package net.mokona.isometriccam.mixins;
 
 import net.minecraft.client.Camera;
 import net.minecraft.world.entity.Entity;
